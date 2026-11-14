@@ -1,0 +1,14 @@
+# Katalog kompilacji Cargo (pliki binarne i artefakty budowania)
+/target
+target/
+
+# Pliki tymczasowe IDE oraz systemu
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db

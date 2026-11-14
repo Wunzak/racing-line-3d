@@ -1,0 +1,14 @@
+[package]
+name = "racing_line_3d"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Szybka biblioteka do wektorów i macierzy 3D
+glam = "0.29"
+# Lekki silnik 3D z wbudowaną integracją interfejsu egui
+three-d = { version = "0.18", features = ["egui-gui"] }
+# Wykresy 2D dla egui (profil prędkości v(s) i koło tarcia G-G)
+egui_plot = "0.29"
+# Bezpośrednia kontrola nad oknem systemowym Windows (pozycja, widoczność, fokus)
+winit = "0.28"
